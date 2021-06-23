@@ -31,7 +31,7 @@ input files
 Conversion of gene names can be accomplished at https://biit.cs.ut.ee/gprofiler/convert
 
 A sample command is as followed:
-python driv_DLEPS.py --input=../../data/Brief_Targetmol_natural_product_2719 --output=../../results/np2719_Browning.csv --upset=../../data/BROWNING_up --downset=../../data/BROWNING_down --reverse=False
+```python driv_DLEPS.py --input=../../data/Brief_Targetmol_natural_product_2719 --output=../../results/np2719_Browning.csv --upset=../../data/BROWNING_up --downset=../../data/BROWNING_down --reverse=False```
 
 Batch jobs were put into run_script
 
