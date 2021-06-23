@@ -6,7 +6,7 @@ A Deep Learning based Efficacy Prediction System for Drug Discovery
 - ## Install package
 
 This package requires the **rdkit**, **tensorflow >=1.15.0** and **Keras >=2.3.0**.
-
+```
 conda install -c rdkit rdkit
 apt-get update
 apt install libxrender1
@@ -14,7 +14,7 @@ apt install libxext6
 pip install nltk
 pip install tensorflow==1.15.0
 pip install keras==2.3.0
-
+```
 - ## On Code ocean
 
 The supporting files and sample input files for the model locates in the data folder. Results were saved in results folder.
@@ -36,6 +36,7 @@ python driv_DLEPS.py --input=../../data/Brief_Targetmol_natural_product_2719 --o
 Batch jobs were put into run_script
 
 Other options include:
+
     '--input', default=INPUTFILE,
                         'Brief format of chemicals: contains SMILES column. '
     '--use_onehot',  default=True,
